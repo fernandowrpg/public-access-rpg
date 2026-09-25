@@ -1,0 +1,158 @@
+{
+  "id": "public-access",
+  "title": "Public Access",
+  "description": "Sistema não-oficial para jogar Public Access (PbtA) no Foundry VTT: ficha de Latchkey automatizada, moves básicos, Latchkey moves customizáveis, Keys, Conditions, Dawn Questions e XP.",
+  "version": "1.3.0",
+  "authors": [
+    {
+      "name": "Fernando"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": [
+    "module/public-access.mjs"
+  ],
+  "styles": [
+    "styles/public-access.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "latchkey": {
+        "htmlFields": [
+          "biography",
+          "notes"
+        ]
+      },
+      "mystery": {
+        "htmlFields": [
+          "presentation",
+          "threat.description",
+          "threat.ifIgnored",
+          "notes"
+        ]
+      }
+    },
+    "Item": {
+      "move": {
+        "htmlFields": [
+          "description",
+          "results.miss",
+          "results.partial",
+          "results.strong",
+          "results.critical"
+        ]
+      },
+      "gear": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    }
+  },
+  "socket": true,
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "initiative": "0",
+  "packs": [
+    {
+      "name": "latchkey-moves-pt",
+      "label": "Latchkey Moves (PT-BR)",
+      "path": "packs/latchkey-moves-pt",
+      "type": "Item",
+      "system": "public-access",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "latchkey-moves-en",
+      "label": "Latchkey Moves (EN)",
+      "path": "packs/latchkey-moves-en",
+      "type": "Item",
+      "system": "public-access",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "mysteries-pt",
+      "label": "Mistérios (PT-BR)",
+      "path": "packs/mysteries-pt",
+      "type": "Actor",
+      "system": "public-access",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "mysteries-en",
+      "label": "Mysteries (EN)",
+      "path": "packs/mysteries-en",
+      "type": "Actor",
+      "system": "public-access",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Public Access",
+      "sorting": "m",
+      "color": "#8e5cf7",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Latchkey Moves",
+          "sorting": "a",
+          "color": "#36e2e6",
+          "packs": [
+            "latchkey-moves-pt",
+            "latchkey-moves-en"
+          ]
+        },
+        {
+          "name": "Mistérios (Mysteries)",
+          "sorting": "a",
+          "color": "#ff4fa3",
+          "packs": [
+            "mysteries-pt",
+            "mysteries-en"
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://github.com/fernandowrpg/public-access-rpg",
+  "manifest": "https://github.com/fernandowrpg/public-access-rpg/releases/latest/download/system.json",
+  "download": "https://github.com/fernandowrpg/public-access-rpg/releases/download/v1.3.0/public-access.zip",
+  "bugs": "https://github.com/fernandowrpg/public-access-rpg/issues",
+  "readme": "https://github.com/fernandowrpg/public-access-rpg/blob/main/README.md",
+  "changelog": "https://github.com/fernandowrpg/public-access-rpg/blob/main/CHANGELOG.md",
+  "license": "https://github.com/fernandowrpg/public-access-rpg/blob/main/LICENSE"
+}

@@ -2,7 +2,7 @@
   "id": "public-access",
   "title": "Public Access",
   "description": "Sistema não-oficial para jogar Public Access (PbtA) no Foundry VTT: ficha de Latchkey automatizada, moves básicos, Latchkey moves customizáveis, Keys, Conditions, Dawn Questions e XP.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "authors": [
     {
       "name": "Fernando"
@@ -150,7 +150,7 @@
   ],
   "url": "https://github.com/fernandowrpg/public-access-rpg",
   "manifest": "https://github.com/fernandowrpg/public-access-rpg/releases/latest/download/system.json",
-  "download": "https://github.com/fernandowrpg/public-access-rpg/releases/download/v1.3.0/public-access.zip",
+  "download": "https://github.com/fernandowrpg/public-access-rpg/releases/download/v1.4.0/public-access.zip",
   "bugs": "https://github.com/fernandowrpg/public-access-rpg/issues",
   "readme": "https://github.com/fernandowrpg/public-access-rpg/blob/main/README.md",
   "changelog": "https://github.com/fernandowrpg/public-access-rpg/blob/main/CHANGELOG.md",

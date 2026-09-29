@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0
+- **Relógio de fases** flutuante, visível para todos: mostra Dawn, Day, Dusk ou Night num mostrador com ponteiro animado e o contador de fitas Odyssey.
+  - O GM troca a fase clicando no segmento do relógio ou nos botões de anterior/próxima, e ajusta as fitas com +/-.
+  - Atalho **Shift+P** para mostrar/ocultar; o selo de fase da ficha abre o relógio.
+  - Cada jogador escolhe se o relógio fica visível (configuração de cliente); a posição é lembrada.
+
 ## 1.3.0
 - Importador de texto oficial: moves (um por vez ou em lote), moves básicos e mistérios (ficha inteira ou por seção).
 - Compêndio de mundo **Latchkey Moves do Keeper**, já com os 20 moves e suas automações.

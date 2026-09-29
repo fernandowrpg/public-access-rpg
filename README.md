@@ -43,7 +43,7 @@ Para publicar novas versões, veja [PUBLISHING.md](PUBLISHING.md).
 | **Dawn Questions** | A primeira é sempre marcada. A desbloqueável é marcada ao ser desbloqueada. O limite é de 2 eletivas. O botão **Dawn** pergunta quais você respondeu “sim” e marca XP. |
 | **XP e avanços** | São 6 caixas. Com a trilha cheia, **Avançar** zera o XP e marca um avanço. `[ability]` dá +1 em uma habilidade (máx. +3). `[move]` lembra de adicionar o move. |
 | Fita em branco (Found Footage) | Item do Canto com “12+ automático”: marcá-lo antes da rolagem garante 12+. |
-| Fase e fitas | O GM clica no selo de fase da ficha para avançar Dawn → Day → Dusk → Night. O contador de fitas assistidas fica nas configurações do sistema. |
+| Fase e fitas | Um **relógio de fases** flutuante mostra a fase atual para todos. O GM troca a fase clicando no relógio e ajusta as fitas Odyssey com +/-. Atalho **Shift+P**; o selo de fase da ficha abre o relógio. Também dá para mudar pelas configurações do sistema. |
 
 ## Compêndio de Latchkey moves
 

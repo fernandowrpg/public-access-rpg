@@ -172,7 +172,7 @@ Atalhos:
 
 ## Modelo de ficha (importante)
 
-O PDF do livro **não traz** os textos da ficha de personagem: Dawn Questions, Key of the Child, Key of Desolation, avanços e valores iniciais das habilidades. Por isso o sistema vem com **placeholders**. Para preenchê-los:
+O modelo já vem preenchido com as habilidades iniciais, as Key of the Child, as Keys of Desolation, as Dawn Questions e os avanços da ficha (com efeitos automatizados). Se quiser a redação exata da ficha impressa, cole as linhas no menu abaixo:
 
 1. Como GM, vá em **Configurações → Configurar sistema → Modelo de Latchkey**.
 2. Cole os textos da sua ficha impressa, uma entrada por linha:

@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.5.0
+- **Habilidades iniciais** da ficha (Vitalidade 0, Compostura 1, Razão 1, Presença 0, Sensibilidade −1) nos novos Latchkeys, com um lembrete e botão para o **+1 inicial** numa habilidade.
+- **Key of the Child** (7), **Dawn Questions** (7) e **Avanços** (6) já preenchidos; **Keys of Desolation** com descrição completa.
+- **Avanços automatizados**: +1 numa habilidade, escolher um Latchkey move disponível (nunca um que outro Latchkey já tenha), criar um move customizado, desmarcar o Canto da Casa.
+- Diálogo **Virar uma Key** (e de Avanço) com opções em cartões clicáveis, marcador com ícone e destaque da escolha.
+- **Your Corner of the House** saiu da aba própria e virou uma lista na aba de Moves, abaixo dos moves customizados.
+- Tags dos moves (habilidade, complementar, usos) agora ficam **embaixo do título**.
+- Migração automática: fichas e modelos que ainda tinham os textos provisórios são atualizados, mantendo as marcações.
+
 ## 1.4.0
 - **Relógio de fases** flutuante, visível para todos: mostra Dawn, Day, Dusk ou Night num mostrador com ponteiro animado e o contador de fitas Odyssey.
   - O GM troca a fase clicando no segmento do relógio ou nos botões de anterior/próxima, e ajusta as fitas com +/-.
